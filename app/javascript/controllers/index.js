@@ -6,3 +6,6 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import OffcanvasNavbarController from "./offcanvas_navbar_controller"
+application.register("offcanvas-navbar", OffcanvasNavbarController)
